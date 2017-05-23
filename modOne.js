@@ -1,9 +1,5 @@
 function makeRandom(min, max) {
-  var num = Math.random() * (max - min) + min;
-  num = parseInt(num);
-  return num;
+  return Math.random() * (max - min) + min;
 }
-
-// makeRandom(100, 1000000);
 
 module.exports = makeRandom;
